@@ -1,0 +1,389 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #343a40;
+    background: #ffffff;
+}
+
+
+/*p {
+     line-height: 1.9;
+ }*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*********************************************/
+/*              UTILITY CSS                  "/
+/*********************************************/
+
+.text-sub {
+    color: #ffffff !important;
+    font-size: 25px;
+}
+
+/*that makes sections far from each other */
+.section {
+    padding: 120px 0px 120px 0px;
+    position: relative;
+}
+
+/*font about section*/
+.size-15 {
+    font-size: 25px;
+    color: #192845;
+}
+
+.highlight {
+    background: rgba(122, 96, 183, 0.1);
+    -webkit-box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    color: #1B5374;
+    border-radius: 13px;
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    /*border-radius: .25rem;*/
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.header-bg {
+    padding: 1px 0 1px;
+    background-color: rgb(3, 92, 99);
+
+}
+
+/*********************************************/
+/*              NAVBAR CSS                  "/
+/*********************************************/
+
+.nav-item .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #343a40;
+}
+
+.navbar-kleo {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.navbar-kleo .navbar-nav li a {
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+    font-family: 'Lucida Bright';
+}
+
+.navbar-kleo .navbar-nav li .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+.navbar-kleo .navbar-nav li.active a,
+.navbar-kleo .navbar-nav li a:hover,
+.navbar-kleo .navbar-nav li a:active {
+    color: #ffffff !important;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent;
+
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/*********************************************/
+/*              BUTTONS CSS                  "/
+/*********************************************/
+
+.btn {
+    border-radius: 4px;
+    padding: 12px 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-weight: 700;
+    font-size: 15px !important;
+}
+
+.btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.btn.btn-primary {
+    color: #ffffff;
+    background-color: rgb(3, 92, 99) !important;
+    border: 1px solid #6C55A3 !important;
+    -webkit-box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+    box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary.focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+    background-color: rgb(155, 4, 37) !important;
+    border: 1px solid #000000 !important;
+    -webkit-box-shadow: 0 3px 10px rgba(94, 98, 255, 0.5);
+    box-shadow: 0 3px 10px rgba(254, 254, 255, 0.5);
+    color: #ffffff !important;
+}
+
+/********************************************************************/
+/*               ACCOMPLISHED PROJECTS COUNTER CSS                  "/
+/*******************************************************************/
+
+/*********************************************/
+/*                FORMS CSS                  "/
+/*********************************************/
+
+.form-control:focus {
+    background-color: #fbfbfb;
+    border-color: rgb(3, 92, 99);
+    ;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control {
+    background-color: rgba(52, 58, 64, 0.01);
+    border: 1px solid rgba(155, 155, 174, 0.3);
+    padding: 9px 11px;
+    font-size: 14px;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #9b9bae;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #9b9bae;
+    font-size: 15px;
+}
+
+.form-control::-ms-input-placeholder {
+    font-size: 15px;
+    color: #9b9bae;
+}
+
+.form-control::placeholder {
+    color: #9b9bae;
+    font-size: 15px;
+}
+
+/*********************************************/
+/*              CAROUSEL CSS                  "/
+/*********************************************/
+
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.carousel .item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+
+.carousel .item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.carousel .overview {
+    font-style: italic;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: rgb(3, 92, 99);
+    ;
+}
+
+.carousel .carousel-control {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+
+.carousel-control i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.carousel .carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 21px;
+    height: 0px;
+    margin: 1px 3px;
+}
+
+.carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+    background: rgb(3, 92, 99);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*********************************************/
+/*              FOOTER CSS                  "/
+/*********************************************/
+
+.footer {
+    background-color: #6C55A3;
+    padding-top: 20px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+/*********************************************/
+/*              RESPONSIVE CSS               "/
+/*********************************************/
+
+@media (min-width: 200px) and (max-width: 1000px) {
+    .navbar-kleo {
+        background-color: transparent !important;
+        -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        margin-top: 0px;
+        color: #ffffff !important;
+    }
+    .col-lg-5{
+        width :0px
+    }
+    .navbar-toggler {
+        margin-bottom: 0px;
+        font-size: 24px;
+        margin-top: 0px;
+        color: #fffefe;
+    }
+
+    .navbar-kleo .navbar-nav {
+        margin-top: 0px;
+    }
+
+    .navbar-kleo .navbar-nav li a {
+        margin: 0px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        color: #9b9bae !important;
+    }
+
+    .navbar-kleo>.container {
+        width: 90%;
+    }
+
+    .navbar-collapse {
+        padding: 0 20px;
+    }
+
+    .navbar-kleo .navbar-nav li.active a {
+        border-color: transparent;
+    }
+
+    .navbar-kleo .navbar-nav li.active a,
+    .navbar-kleo .navbar-nav li a:hover,
+    .navbar-kleo .navbar-nav li a:active {
+        color: #ffffff !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-bg .main-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-bg {
+        padding: 120px 0;
+        
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-bg {
+        background-color:rgb(3, 92, 99)!important;
+    }
+}

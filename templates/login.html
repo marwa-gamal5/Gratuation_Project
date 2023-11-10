@@ -1,0 +1,58 @@
+
+{% load static %}
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style_L/style.css' %}">
+
+</head>
+
+<body style="background-color:#00838B;">
+    <form action="#" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <nav class="nav">
+            <section class="table">
+                <div class="Recona">
+                    <img src="{% static 'img/img_L/Recona.png' %}" alt="My Image">
+                </div>
+                <div class="table-cell">
+                    <ul style="list-style-type: none;" class="navbar">
+                        <li class="nav-item"><a href="{% url 'homee'%}">Home</a></li>
+                        <li class="nav-item"><a href="{% url 'my_view'%}">About</a></li>
+                        <li class="nav-item"><a href="{% url 'res'%}">Researches</a></li>
+                        <li class="login"><a href="{% url 'login'%}">Login</a></li>
+
+                    </ul>
+                </div>
+            </section>
+        </nav>
+
+        <main class="main">
+            <section class="table">
+                <div class="table-cell">
+                    <div class="card">
+                        <img src="{% static 'img/img_L/image1.png' %}" alt="My Image">
+
+                    </div>
+                </div>
+                <section class="table-cell">
+                    <h2>
+                        Welcome, glad to have you
+                    </h2>
+                    <h4>User name</h4>
+                    <input type="text" id="Firstname" name="uname" class="form-input" style="border: none;border-bottom: 1px solid #ebebeb;background: 0 0;width: 458px; margin-left: 10px;" required />
+                    <h4>Password</h4>
+                    <input type="password" id="Firstname" name="pass" class="form-input" style="border: none;border-bottom: 1px solid #E4F3FC;background: 0 0; width: 458px; margin-left: 10px;"  minlength="8" maxlength="10" required />
+                    <h6>Forget password?</h6>
+                    <button class="login"><a href="{% url 'Uploadfiles'%}" type="submit">Login</a></button>
+                    <p>New user? <a href="{% url 'sign_up' %}">Register</a> here</p>
+                </section>
+            </section>
+        </main>
+    </form>
+
+</body>
+
+</html>

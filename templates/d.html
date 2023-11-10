@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Docker Output</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!--bootstrap-->
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://kit.fontawesome.com/a25e404d5b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="background-radial-gradient overflow-hidden">
+    <div class="modal" tabindex="-1" role="dialog" id="result-modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content"
+                style="align-items: center;height: 485px;border-radius: 30px; background: #E4F3FC ;">
+                <div class="modal-header">
+                    <span class="header-icon">
+
+                        <img src="{% static 'img/report-removebg-preview.png' %}" alt="Paper" width="120" height="120">
+
+                    </span>
+                    <h5 class="modal-title">Result</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        style="margin-left: 216px;"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="file">
+                        <input type="text" value="Lynch Sendrome Postions" readonly
+                            style="color :#4b749a ;border-radius: 6px; width: 254px;border: 1px solid #1B5374;font-family: 'Josefin Slab';height: 39px;background-color: transparent;">
+                        <a href="{{ output_url }}" download><i class="fas fa-download"></i></a>
+                        <a href="{{ view_url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <br>
+                    <div class="file">
+                        <input type="text" value="cell compostion report" readonly
+                            style="color :#4b749a ;border-radius: 6px; width: 254px;border: 1px solid #1B5374;font-family: 'Josefin Slab';height: 39px;background-color: transparent;">
+                        <a href="{{ output_url }}" download><i class="fas fa-download"></i></a>
+                        <a href="{{ view_url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="button-container" style="align-items: center;margin-bottom: 70px;">
+                    <button id="save-button">Save</button>
+                    <button id="new-project-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">New
+                        Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#result-modal').modal('show');
+        });
+    </script>
+      <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+      <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+
+</body>
+<style>
+    #save-button{
+    height: 45px;
+    border-radius: 10%;
+    width: 160px;
+    background: rgb(3, 92, 99);
+    color: #E4F3FC;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 20px;
+    font-family: lucida Bright;
+
+}
+#new-project-button{
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 10%;
+    width: 160px;
+    background: rgb(3, 92, 99);
+    color: #E4F3FC;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 20px;
+    font-family: lucida Bright; 
+}
+.background-radial-gradient {
+        background-color: #00838B !important;
+        ;
+      }
+
+      #radius-shape-1 {
+        height: 220px;
+        width: 220px;
+        top: -60px;
+        left: -130px;
+        background: radial-gradient(rgb(9, 67, 71), rgb(4, 124, 133));
+        overflow: hidden;
+      }
+
+      #radius-shape-2 {
+        border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+        bottom: -60px;
+        right: -110px;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(rgb(9, 67, 71), rgb(4, 124, 133));
+        overflow: hidden;
+      }
+
+      .bg-glass {
+        background-color: hsla(0, 0%, 100%, 0.9) !important;
+        backdrop-filter: saturate(200%) blur(25px);
+      }
+</style>
+</html>

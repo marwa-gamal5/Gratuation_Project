@@ -1,0 +1,173 @@
+* {
+    font-family: 'Lucida Bright';
+}
+
+/*********************************************/
+/*              NAVBAR CSS                  "/
+/*********************************************/
+
+.nav-item .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #343a40;
+}
+
+.navbar-kleo {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.navbar-kleo .navbar-nav li a {
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+
+
+}
+
+.navbar-kleo .navbar-nav li .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+.navbar-kleo .navbar-nav li.active a,
+.navbar-kleo .navbar-nav li a:hover,
+.navbar-kleo .navbar-nav li a:active {
+    color: #ffffff !important;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #00838B;
+
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/**********************************/
+p {
+    font-family: 'Javanese Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 141.55%;
+    /* or 45px */
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Lucida Bright';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 141.55%;
+    /* identical to box height, or 68px */
+    color: #1B5374;
+}
+
+/*****************************************************/
+.collapseimg:hover {
+    transform: rotate(180deg);
+}
+
+.btn.btn-primary {
+    color: #ffffffff;
+    background-color: white;
+    border: white;
+}
+
+.btn.btn-primary:hover {
+    color: #ffffffff;
+    background-color: white;
+    border: white;
+}
+
+/*********************************************/
+/*              RESPONSIVE CSS               "/
+/*********************************************/
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .navbar-kleo {
+        background-color: #ffffff !important;
+        -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        margin-top: 0px;
+        color: #ffffff !important;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 0px;
+        font-size: 24px;
+        margin-top: 0px;
+        color: #f1e572;
+    }
+
+    .navbar-kleo .navbar-nav {
+        margin-top: 0px;
+    }
+
+    .navbar-kleo .navbar-nav li a {
+        margin: 0px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        color: #9b9bae !important;
+    }
+
+    .navbar-kleo>.container {
+        width: 90%;
+    }
+
+    .navbar-collapse {
+        padding: 0 20px;
+    }
+
+    .navbar-kleo .navbar-nav li.active a {
+        border-color: transparent;
+    }
+
+    .navbar-kleo .navbar-nav li.active a,
+    .navbar-kleo .navbar-nav li a:hover,
+    .navbar-kleo .navbar-nav li a:active {
+        color: #00838B !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-bg .main-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-bg {
+        padding: 120px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-bg {
+        background: none !important;
+    }
+}

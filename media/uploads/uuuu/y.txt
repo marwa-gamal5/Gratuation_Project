@@ -1,0 +1,34 @@
+1-creat project 
+on cmd from the project path
+=> django-admin startproject LynchSyndromeDetection .
+
+2-run the project
+=>	 python manage.py runserver
+and take url such as http://127.0.0.1:8000/
+and past it in chrome
+ctrl+c to stop run
+
+3- select spacefac port to run the project
+=> python manage.py runserver 5000
+
+4- creat app inside the project
+=> django-admin startapp HomePage
+
+5-pip3 install virtualenv
+6-virtualenv venv
+7-venv\Scripts\activate
+8-pip3 install django
+9-from .models import Bord
+
+admin.site.register(Board)
+
+in admin
+10-
+python manage.py migrate
+
+
+
+python3 -m venv venv
+
+source venv/bin/activate
+

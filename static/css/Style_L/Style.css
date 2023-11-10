@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Lucida Bright Regular;
+    src: url(../font/Lucida-Bright-Regular.ttf);
+}
+
+@font-face {
+    font-family: JosefinSlab-ThinItalic;
+    src: url(../font/JosefinSlab-VariableFont_wght.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+
+nav .table {
+    display: table;
+    width: 100%;
+    margin: 0px auto;
+}
+
+nav .table-cell {
+    width: 59%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px 26px;
+    margin-right: 35px;
+}
+
+.navbar .login a {
+    font-family: Lucida Bright;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.navbar .nav-item a {
+    font-family: Lucida Bright;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.navbar .nav-item {
+    font-size: 33px;
+    font-family: Lucida Bright;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 90%;
+    margin: 68px 120px;
+}
+
+.main .card {
+    width: 50%;
+}
+
+.main .table-cell {
+    vertical-align: middle;
+    display: table-cell;
+    width: 56%;
+}
+
+.main h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: Lucida Bright Regular;
+    margin-bottom: 32px;
+}
+
+.main h4 {
+    font-size: 26px;
+    color: #E4F3FC;
+    font-family: JosefinSlab-ThinItalic;
+    margin: 25px 6px 20px;
+    padding-top: 9px;
+}
+
+.main h6 {
+    color: #E4F3FC;
+    font-size: 17px;
+    font-family: JosefinSlab-ThinItalic;
+    padding-left: 322px;
+    margin-top: 12px;
+}
+
+.main button {
+    color: #1B5374;
+    border-radius: 23px;
+    margin: 26px 20px 17px 20px;
+    margin-left: 4px;
+    padding: 17px 170px;
+    background-color: #E4F3FC;
+    border: 1px solid transparent;
+    font-size: 34px;
+}
+
+.main .login {
+    color: #1B5374;
+}
+
+.main p {
+    color: #E4F3FC;
+    font-size: 24px;
+    font-family: JosefinSlab-ThinItalic;
+    padding: 4px 93px;
+}
+
+.main p a {
+    font-size: 26px;
+    font-family: Lucida Bright;
+    color: #FFFFFF;
+}

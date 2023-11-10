@@ -1,0 +1,166 @@
+* {
+    font-family: 'Lucida Bright';
+
+}
+
+/*********************************************/
+/*              NAVBAR CSS                  "/
+/*********************************************/
+
+.nav-item .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #343a40;
+}
+
+.navbar-kleo {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.navbar-kleo .navbar-nav li a {
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+
+
+}
+
+.navbar-kleo .navbar-nav li .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+.navbar-kleo .navbar-nav li.active a,
+.navbar-kleo .navbar-nav li a:hover,
+.navbar-kleo .navbar-nav li a:active {
+    color: #ffffff !important;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #00838B;
+
+
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+h1 {
+    width: 555px;
+
+    font-family: lucida Bright;
+    font-size: 55px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+#loading-modal .modal-dialog {
+    width: fit-content;
+    max-width: 100%;
+    margin: auto;
+}
+
+#loading-modal .modal-content {
+    border-radius: 30px;
+    width: 541px;
+    height: 375px;
+    background: #E4F3FC;
+    margin-bottom: 1px;
+}
+
+#file-modal .modal-content {
+    border-radius: 30px;
+    width: 541px;
+    height: 375px;
+    background: #E4F3FC;
+    margin-bottom: 53px;
+    margin-left: -12px;
+}
+
+#file-modal .modal-header {
+    border-bottom: none;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file input {
+    flex: 1;
+}
+
+.spinner {
+    height: 120px;
+    width: 120px;
+    border: 9px solid;
+    border-color: rgb(13 106 159) transparent rgb(199 40 73) transparent;
+    border-radius: 50%;
+    animation: spin 1.4s linear infinite;
+    margin-top: 63px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+p {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 131.55%;
+    color: #1B5374;
+}
+h5{
+    color:#1B5374 ;
+}
+#save-button{
+    height: 45px;
+    border-radius: 10%;
+    width: 160px;
+    background: #1B5374;
+    color: #E4F3FC;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 20px;
+    font-family: lucida Bright;
+}
+#new-project-button{
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 10%;
+    width: 160px;
+    background: #1B5374;
+    color: #E4F3FC;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 20px;
+    font-family: lucida Bright; 
+}

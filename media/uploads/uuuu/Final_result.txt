@@ -1,0 +1,12 @@
+
+=====================================================================================================================================================================================
+Cell_Type   Observed_Value Reference_Range Feedback                                                               Notes                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+B_Cells         0.51%          10-20%      Decreased                HIV/AIDS,Acute lymphoblastic leukemia,Immunodeficiency disorders,Treatment with certain medicines.               
+CD4_Tcells      0.00%          30-60%      Decreased        Acute viral infections,Aging,Cancer,Immune system diseases(such as HIV/AIDS),Radiation therapy,Steroid treatment.        
+CD8_Tcells      21.40%         10-30%       Normal                                                                  -                                                                
+Monocytes       4.24%           2-8%        Normal                                                                  -                                                                
+Neutrophils     0.00%          40-60%      Decreased Aplastic anemia,Chemotherapy,Influenza(flu),Radiation therapy or exposure,Viral infection,Widespread severe bacterial infection.
+NKcells         0.00%           4-26%      Decreased              Cancer,Viral infections,CFS (chronic fatigue syndrome),Multiple Sclerosis,Rheumatoid Arthritis,Lupus.              
+Other_Cells     73.85%            -            -                                                                    -                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
